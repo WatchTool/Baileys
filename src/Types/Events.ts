@@ -1,4 +1,3 @@
-import type { Boom } from '@hapi/boom'
 import { proto } from '../../WAProto'
 import { AuthenticationCreds } from './Auth'
 import { WACallEvent } from './Call'
@@ -40,7 +39,7 @@ export type BaileysEventMap = {
 
 	'messages.delete': { keys: WAMessageKey[] } | { jid: string; all: true }
 	'messages.update': WAMessageUpdate[]
-	'messages.media-update': { key: WAMessageKey; media?: { ciphertext: Uint8Array; iv: Uint8Array }; error?: Boom }[]
+	'messages.media-update': { key: WAMessageKey; media?: { ciphertext: Uint8Array; iv: Uint8Array }; error?: Error }[]
 	/**
 	 * add/update the given messages. If they were received while the connection was online,
 	 * the update will have type: "notify"
