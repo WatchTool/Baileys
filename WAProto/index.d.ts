@@ -1,6 +1,5 @@
 import * as $protobuf from "protobufjs";
-
-type Long = any;
+import Long = require("long");
 /** Namespace proto. */
 export namespace proto {
 
