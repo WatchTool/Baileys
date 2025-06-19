@@ -1,6 +1,6 @@
 {
-  "name": "baileys",
-  "version": "6.7.18",
+  "name": "watchtool-baileys",
+  "version": "6.7.21",
   "description": "A WebSockets library for interacting with WhatsApp Web",
   "keywords": [
     "whatsapp",
@@ -15,7 +15,7 @@
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "files": [
-    "lib/*",
+    "lib/**/*",
     "WAProto/*.ts",
     "WAProto/*.js",
     "WASignalGroup/*.js",
@@ -44,7 +44,7 @@
     "@hapi/boom": "^9.1.3",
     "async-mutex": "^0.5.0",
     "axios": "^1.6.0",
-    "libsignal": "patch:libsignal@https%3A//github.com/WhiskeySockets/libsignal-node.git%23commit=4d08331a833727c338c1a90041d17b870210dfae#~/.yarn/patches/libsignal-https-d9dacc0daf.patch",
+    "libsignal": "git+https://github.com/Watchtool/libsignal-node.git",
     "lodash": "^4.17.21",
     "music-metadata": "^7.12.3",
     "pino": "^9.6",
