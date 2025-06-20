@@ -862,7 +862,7 @@ export const makeMessagesRecvSocket = (config: SocketConfig) => {
 				})
 			])
 		} catch (error) {
-			logger.error({ error, node }, 'error in handling message')
+			logger.debug({ error, node }, 'error in handling message')
 		}
 	}
 

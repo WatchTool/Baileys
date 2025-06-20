@@ -6694,13 +6694,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"libsignal@git+https://github.com/Watchtool/libsignal-node.git":
+"libsignal@github:WhiskeySockets/libsignal-node":
   version: 2.0.1
-  resolution: "libsignal@https://github.com/Watchtool/libsignal-node.git#commit=807c2f6412f65b2ff415aa74495d8d26e7fb458c"
+  resolution: "libsignal@https://github.com/WhiskeySockets/libsignal-node.git#commit=4d08331a833727c338c1a90041d17b870210dfae"
   dependencies:
     curve25519-js: "npm:^0.0.4"
     protobufjs: "npm:6.8.8"
-  checksum: 10c0/a4b24894df23d76ac16145e59593ae91521bb3ff7a907b10626c608eb6e9ffc9fa380df82e613065e317324c576f4bdee3468ffbb7cda4eb7eefbeebdff2ca8a
+  checksum: 10c0/0c6bf1bb2255c3c4eb1e1c35f8a51b5a4b38b2c334178991add7f0e232ebc80c061d1571087348eaf57c34aa8db77d09bcf29eecbbe0c0a49b66aede546952ef
   languageName: node
   linkType: hard
 
@@ -10381,7 +10381,7 @@ __metadata:
     jest: "npm:^29.7.0"
     jimp: "npm:^0.16.1"
     json: "npm:^11.0.0"
-    libsignal: "git+https://github.com/Watchtool/libsignal-node.git"
+    libsignal: "github:WhiskeySockets/libsignal-node"
     link-preview-js: "npm:^3.0.0"
     lodash: "npm:^4.17.21"
     music-metadata: "npm:^7.12.3"
